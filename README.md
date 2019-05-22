@@ -2,7 +2,7 @@
 ## Chad Kidd
 
 ### BASE URL
-
+## https://niyon.herokuapp.com
 
 # SIGN UP / LOG IN
 ### Sign Up
@@ -237,7 +237,7 @@ Client must send
 
 ### Delete questions
 #### DELETE /api/questions/:id
-Example: To delete questions 3 >> DELETE /api/trips/3
+Example: To delete questions 3 >> DELETE /api/questions/3
 Use the assigned id ex: "id": 3 
 
 Server will return status 204 if successful
