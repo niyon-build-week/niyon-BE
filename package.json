@@ -1,0 +1,35 @@
+{
+	"name": "niyon-BE",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^7.0.0",
+		"express": "^4.16.4",
+		"faker": "^4.1.0",
+		"helmet": "^3.16.0",
+		"jsonwebtoken": "^8.5.1",
+		"knex": "^0.16.5",
+		"knex-cleaner": "^1.1.4",
+		"moment": "^2.24.0",
+		"pg": "^7.9.0",
+		"router": "^1.3.3",
+		"sqlite3": "^4.0.8"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.11"
+	},
+	"scripts": {
+		"server": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"keywords": [],
+	"author": "Chad Kidd",
+	"license": "ISC"	
+}
